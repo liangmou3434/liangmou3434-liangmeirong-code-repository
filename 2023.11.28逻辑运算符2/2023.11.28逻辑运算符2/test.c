@@ -15,3 +15,9 @@
 //	printf("('c'&&'b')=%d\n", 'c' && 'b');//两个字符串为真结果为1
 //	return 0;
 //}
+
+//int main()
+//{
+//	prontf("haha\n");
+//	return 0;
+//}
