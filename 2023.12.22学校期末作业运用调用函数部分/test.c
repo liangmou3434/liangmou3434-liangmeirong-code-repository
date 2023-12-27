@@ -28,13 +28,12 @@
 //{
 //	if ((Year % 4 == 0 && Year % 100 != 0) || (Year % 400 == 0))
 //	{
-//		printf("%d年是闰年！", Year);
+//		return 1;
 //	}
 //	else
 //	{
-//		printf("%d年不是闰年!", Year);
+//		return 0;
 //	}
-//	return Year;
 //}
 //int Narcissisticnumber(int number)
 //{
@@ -48,13 +47,12 @@
 //	num3 = pow(hundrednumber, 3);
 //	if (num1 + num2 + num3 == number)
 //	{
-//		printf("%d这个三位数是水仙花数!", number);
+//		return 1;
 //	}
 //	else
 //	{
-//		printf("%d这个数不是水仙花数!", number);
+//		return 0;
 //	}
-//	return number;
 //}
 //int main()
 //{
@@ -81,16 +79,34 @@
 //			printf("请输入年份：");
 //			scanf("%d", &Year);
 //			LeapYear(Year);
+//			if (Year)
+//			{
+//				printf("%d是闰年！! !", Year);
+//			}
+//			else
+//			{
+//				printf("%d不是闰年！！！", Year);
+//			}
 //			break;
 //		case 3:
 //			printf("请输入一个三位数：");
 //			scanf("%d", &number);
 //			Narcissisticnumber(number);
+//			if (number)
+//			{
+//				printf("%d这个三位数是水仙花数！！！", number);
+//			}
+//			else
+//			{
+//				printf("%d这个三位数不是水仙花数！！！", number);
+//			}
 //			break;
 //		default:
 //			printf("您输入了错误的数字！！！");
+//			break;
 //		case 0:
 //			goto next;
+//			break;
 //		}
 //		printf("\n");
 //	} while (1);
