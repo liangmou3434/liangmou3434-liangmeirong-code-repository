@@ -20,7 +20,7 @@
 //		{
 //		case 1:
 //			printf("请输入一元二次方程的a*x*x+bx+c中的a,b,c：");
-//			scanf("%.0lf,%.0lf,%.0lf", &a, &b, &c);
+//			scanf("%lf,%lf,%lf", &a, &b, &c);
 //			int a, b, c;
 //			scanf("%d%d%d", &a, &b, &c);
 //			double Discriminant = b * b - 4 * a * c;//先初始化判别式
@@ -57,7 +57,6 @@
 //		case 3:
 //			printf("请输入一个三位数：");
 //			scanf("%d", &number);
-//			int number = 0;
 //			int singlenumber = number % 10;//153%10=3 个位上的数字
 //			int tennumber = number / 10 % 10;//153/10=15-15%10=5 //十位上的数字
 //			int hundrednumber = number / 100;// 百位上的数字
