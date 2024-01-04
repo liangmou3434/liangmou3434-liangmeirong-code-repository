@@ -91,8 +91,7 @@
 //		case 3:
 //			printf("请输入一个三位数：");
 //			scanf("%d", &number);
-//			Narcissisticnumber(number);
-//			if (number)
+//			if (Narcissisticnumber(number))
 //			{
 //				printf("%d这个三位数是水仙花数！！！", number);
 //			}
