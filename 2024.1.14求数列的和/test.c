@@ -9,9 +9,9 @@
 //		scanf("%d", &n);
 //		a = 2, b = 1;
 //		for (i = 1; i <= n; i++)
-//		{
+//		{//高级写法-sum+=（double）a/b
 //			sum = sum + (double)a / b;
-//			t = a;  a = a + b;  b = t;
+//			t = a;  a = a + b;  b = t;//将a赋值给t，将a+b赋值给a，将t赋值给b
 //		}
 //		printf("sum=%f\n", sum);
 //	return 0;
