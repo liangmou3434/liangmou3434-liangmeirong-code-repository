@@ -4,17 +4,17 @@
 #include<string.h>
 //int main()
 //{
-//	char arr1[] = "\\TOP\t\65\"";
+//	char arr1[] = "\\TOP\t\65\"";//-\\双斜杠为一个字符 \t为一个字符 \65为一个字符 \"为转义字符-输出双撇号字符"
 //	int ret = strlen(arr1);
-//	printf("%d ", ret);
+//	printf("%d ", ret);//该字符串的长度为7
 //	return 0;
 //}
-//
+
 //int main()
 //{
 //	float x = 0;
-//	scanf("%5f", &x);
-//	printf("%f ", x);
+//	scanf("%5f", &x);//scanf中%5的意思是制度5个宽度，假如我输入1234.56--读1234.5（点号也算一个宽度)
+//	printf("%f ", x);//printf%5的意思是打印5个宽度
 //	return 0;
 //}
 
@@ -25,4 +25,5 @@
 //	printf("%d ", a);
 //	return 0;
 //}
+
 
