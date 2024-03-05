@@ -5,7 +5,7 @@
 //int main()
 //{
 //	int x = 0;
-//	while (scanf("%d", &x)!=EOF)
+//	while (scanf("%d", &x)!=EOF)//在scanf函数输入n个数，返回值就为n，此处判断scanf的返回值是否为0，不为0就进入while循环
 //	{
 //		if (x >= 0 && x <= 1)
 //		{
@@ -13,7 +13,7 @@
 //		}
 //		else if (x > 1 && x <= 2)
 //		{
-//			printf("这个方程的解为：%lf", sqrt(x * x - 2 * x + 2));
+//			printf("这个方程的解为：%lf", sqrt(x * x - 2 * x + 2));//sqrt为开根号的函数
 //		}
 //		else if (x > 2 && x <= 3)
 //		{
