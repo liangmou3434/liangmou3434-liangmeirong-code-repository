@@ -32,7 +32,7 @@
 //	scanf("%d", &number);
 //	if (number == 0)
 //		printf("%d这个数为0", number);
-//	else if (number % 2 == 0)
+//	else if (number % 2 == 0)//若number/2余数为0 则number为偶数
 //		printf("%d这个数为偶数", number);
 //	else
 //		printf("%d这个数为奇数", number);
@@ -88,7 +88,7 @@
 //		i++;
 //		printf("%d.hehe\n", i);
 //		if (i == 10)
-//			goto next;
+//			goto next;//使用goto语句跳出死循环
 //	}
 //next:
 //	printf("haha\n");
