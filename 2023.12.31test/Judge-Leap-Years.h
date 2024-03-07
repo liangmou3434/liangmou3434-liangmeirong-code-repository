@@ -1,4 +1,4 @@
 #pragma once
 
 
-int Judge_Leap_Years(int Year);
+int judge_Leap_Years(int Years);
