@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
 #include<stdlib.h>
-//int main()
+//int main()//区分有break语句和没有break语句的执行switch语句区别
 //{
 //	int num = 0;
 //	printf("请输入表示等级的数字：");
