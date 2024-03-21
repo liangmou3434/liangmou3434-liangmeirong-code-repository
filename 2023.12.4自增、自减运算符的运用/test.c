@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
 #include<stdlib.h>
-//int main()
+//int main()//自增自减运算符运用
 //{
 //	int i, k, a, b, c;
 //	i = 3;
