@@ -6,8 +6,8 @@
 //	int num1 = 0;
 //	int num2 = 0;
 //	int sum = 0;
-//	scanf("%d%d", &num1, &num2);//ÊäÈëÁ½¸öÖµ
-//	sum = num1 + num2;//½«Á½¸öÖµ¸³Öµ¸øsum
+//	scanf("%d%d", &num1, &num2);//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµ
+//	sum = num1 + num2;//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½Öµï¿½ï¿½sum
 //	printf("sum=%d\n", sum);
 //	return 0;
 //}
@@ -22,10 +22,10 @@
 //	int num1 = 10;
 //	int num2 = 20;
 //	int sum = 0;
-//	sum = Add(num1, num2);//µ÷ÓÃAdd¼Ó·¨º¯Êý
+//	sum = Add(num1, num2);//ï¿½ï¿½ï¿½ï¿½Addï¿½Ó·ï¿½ï¿½ï¿½ï¿½ï¿½
 //	printf("sum=%d\n", sum);
 //	return 0;
-//}
+//}//
 
 //
 
