@@ -59,6 +59,8 @@ void GAME_START(pSnake ps);
 //欢迎界面和功能介绍的打印
 void WelcomeToGame();
 
+//定位光标的位置
+void SetPos(int x, int y);
 //创建地图-27行58列
 void CreatMap();
 
@@ -67,3 +69,27 @@ void InitSnake(pSnake ps);
 
 //创建食物
 void CreatFood(pSnake ps);
+
+//游戏运行的逻辑
+void GameRun(pSnake ps);
+
+//蛇的移动
+void SnakeMove(pSnake ps);
+
+//判断下一个坐标是否是食物
+int NextIsFood(pSnakeNode pn,pSnake ps);
+
+//下一个位置是食物,则吃掉食物
+void EatFoood(pSnakeNode pn, pSnake ps);
+
+//下一个位置不是食物
+void NotFood(pSnakeNode pn, pSnake ps);
+
+//检测蛇是否撞墙
+void KillByWall(pSnake ps);
+
+//检测蛇是否撞到自己
+void KillBySelf(pSnake ps);
+
+//游戏的善后工作
+void GameEnd(pSnake ps);
